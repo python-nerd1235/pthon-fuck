@@ -20,4 +20,5 @@ for i in ascii_list:
     template='chr('
     template+=i+')+'
     output+=template
+output=output[:-1] + ')'
 print(output)
